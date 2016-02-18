@@ -1,0 +1,348 @@
+backgroundOrder:
+- 13
+- 44
+- 52
+- 11
+- 51
+- 50
+- 9
+- 12
+- 14
+- 10
+- 45
+- 15
+- 16
+- 19
+- 18
+- 20
+- 53
+- 21
+- 17
+- 48
+- 49
+backgroundStates:
+- 18
+- 19
+- 48
+columnOrder:
+- ICON
+- DISTANCE
+- NAME
+- TYPE
+- TAG
+- CORPORATION
+- ALLIANCE
+- FACTION
+- MILITIA
+- SIZE
+- VELOCITY
+- RADIALVELOCITY
+- TRANSVERSALVELOCITY
+- ANGULARVELOCITY
+flagOrder:
+- 13
+- 44
+- 52
+- 11
+- 51
+- 50
+- 9
+- 12
+- 14
+- 10
+- 45
+- 15
+- 16
+- 19
+- 18
+- 20
+- 53
+- 21
+- 17
+- 48
+- 49
+flagStates:
+- 9
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 21
+- 44
+- 45
+- 48
+- 49
+- 50
+- 51
+- 52
+overviewColumns:
+- ICON
+- NAME
+- TYPE
+- VELOCITY
+presets:
+- - 0  scooping
+  - - - filteredStates
+      - - 21
+        - 37
+    - - groups
+      - - 10
+        - 12
+        - 15
+        - 186
+        - 513
+        - 902
+- - 0  warp out
+  - - - filteredStates
+      - - 15
+        - 16
+        - 21
+        - 36
+        - 37
+    - - groups
+      - - 6
+        - 7
+        - 9
+        - 10
+        - 12
+        - 15
+        - 90
+        - 361
+        - 479
+        - 492
+        - 548
+        - 863
+        - 864
+- - 0  scoutcyno
+  - - - filteredStates
+      - - 11
+        - 12
+        - 15
+        - 16
+        - 17
+        - 20
+        - 21
+        - 36
+        - 37
+        - 48
+    - - groups
+      - - 310
+        - 513
+        - 883
+        - 902
+- - 0  travel
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 15
+        - 16
+        - 21
+        - 36
+        - 37
+    - - groups
+      - - 10
+        - 12
+        - 15
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 90
+        - 237
+        - 310
+        - 324
+        - 358
+        - 361
+        - 361
+        - 365
+        - 366
+        - 380
+        - 381
+        - 383
+        - 419
+        - 420
+        - 463
+        - 479
+        - 485
+        - 492
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 548
+        - 659
+        - 699
+        - 707
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 863
+        - 864
+        - 883
+        - 893
+        - 894
+        - 897
+        - 898
+        - 900
+        - 902
+        - 906
+        - 927
+        - 941
+        - 963
+        - 1022
+        - 1201
+        - 1202
+        - 1246
+        - 1250
+        - 1283
+- - 0  freighters
+  - - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+    - - groups
+      - - 513
+        - 902
+        - 941
+shipLabelOrder:
+- pilot name
+- ship type
+- alliance
+- null
+- corporation
+- ship name
+shipLabels:
+- - null
+  - - - post
+      - ''
+    - - pre
+      - ':'
+    - - state
+      - 1
+    - - type
+      - null
+- - alliance
+  - - - post
+      - ']</color>'
+    - - pre
+      - <color=0xFF2f69c8>[
+    - - state
+      - 1
+    - - type
+      - alliance
+- - corporation
+  - - - post
+      - ']'
+    - - pre
+      - '['
+    - - state
+      - 1
+    - - type
+      - corporation
+- - pilot name
+  - - - post
+      - '-'
+    - - pre
+      - <fontsize=11><b>
+    - - state
+      - 1
+    - - type
+      - pilot name
+- - ship name
+  - - - post
+      - ''''
+    - - pre
+      - ''''
+    - - state
+      - 0
+    - - type
+      - ship name
+- - ship type
+  - - - post
+      - </color>
+    - - pre
+      - <color=0xFFc94c0a>
+    - - state
+      - 1
+    - - type
+      - ship type
+stateBlinks:
+- - background_13
+  - true
+- - background_18
+  - false
+- - background_19
+  - false
+- - background_44
+  - true
+- - flag_50
+  - true
+- - flag_51
+  - true
+- - flag_52
+  - true
+stateColorsNameList:
+- - background_18
+  - black
+- - background_19
+  - black
+- - background_48
+  - black
+- - flag_17
+  - indigo
+tabSetup:
+- - 0
+  - - - bracket
+      - null
+    - - name
+      - <color=0xFFD41A1F>Fleet</color>
+    - - overview
+      - 0  freighters
+- - 1
+  - - - bracket
+      - null
+    - - name
+      - <color=0xFFF0A804>Tacklers</color>
+    - - overview
+      - 0  travel
+- - 2
+  - - - bracket
+      - null
+    - - name
+      - <color=0xFFFFFF00>Escape</color>
+    - - overview
+      - 0  warp out
+- - 3
+  - - - bracket
+      - null
+    - - name
+      - <color=0xFF42C0FB>LogiView</color>
+    - - overview
+      - 0  scooping
+- - 4
+  - - - bracket
+      - null
+    - - name
+      - <color=0xFF00FF00>HighSec</color>
+    - - overview
+      - 0  scoutcyno
+userSettings:
+- - hideCorpTicker
+  - true
+- - overviewBroadcastsToTop
+  - true
