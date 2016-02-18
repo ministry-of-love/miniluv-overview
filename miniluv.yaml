@@ -64,7 +64,6 @@ flagOrder:
 flagStates:
 - 9
 - 11
-- 12
 - 13
 - 14
 - 15
@@ -81,13 +80,16 @@ flagStates:
 - 51
 - 52
 overviewColumns:
+- DISTANCE
 - ICON
 - NAME
 - TYPE
 - VELOCITY
 presets:
 - - 0  scooping
-  - - - filteredStates
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
       - - 21
         - 37
     - - groups
@@ -95,6 +97,7 @@ presets:
         - 12
         - 15
         - 186
+        - 380
         - 513
         - 902
 - - 0  warp out
@@ -140,7 +143,6 @@ presets:
       - []
     - - filteredStates
       - - 11
-        - 12
         - 15
         - 16
         - 21
@@ -208,10 +210,15 @@ presets:
         - 1246
         - 1250
         - 1283
+        - 1305
+        - 1527
+        - 1534
+        - 1538
 - - 0  freighters
-  - - - filteredStates
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
       - - 11
-        - 12
         - 14
         - 15
         - 16
@@ -310,37 +317,37 @@ tabSetup:
   - - - bracket
       - null
     - - name
-      - <color=0xFFD41A1F>Fleet</color>
+      - <color=0xFFFFFFFF>   ✈   </color>
     - - overview
-      - 0  freighters
+      - 0  travel
 - - 1
   - - - bracket
       - null
     - - name
-      - <color=0xFFF0A804>Tacklers</color>
+      - <color=0xFFFF6F75>      <b>gank</b>      </color>
     - - overview
-      - 0  travel
+      - 0  freighters
 - - 2
   - - - bracket
       - null
     - - name
-      - <color=0xFFFFFF00>Escape</color>
+      - <color=0xFFFFE900> friendly </color>
     - - overview
       - 0  warp out
 - - 3
   - - - bracket
       - null
     - - name
-      - <color=0xFF42C0FB>LogiView</color>
+      - loot
     - - overview
       - 0  scooping
 - - 4
   - - - bracket
       - null
     - - name
-      - <color=0xFF00FF00>HighSec</color>
+      - <color=0xFF7FFF1F> <b>escape!</b> </color>
     - - overview
-      - 0  scoutcyno
+      - 0  warp out
 userSettings:
 - - hideCorpTicker
   - true
