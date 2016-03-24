@@ -8,13 +8,19 @@ This repository contains the Ministry of Love Unified Overview 2.0.  This was an
 
 We've begun by stripping out the overview and creating buckets that represent a type of overview.  They correspond as follows:
 
-0 - Gank Kill Overviews
-1 - Scouting Overviews
-2 - Scooping and loot related overviews
-3 - FC Aid Overviews
-4 - PvE Overviews
-5 - Nullsec/Lowsec combat overviews
-9 - Escape and travel
+**0** - Gank Kill Overviews
+
+**1** - Scouting Overviews
+
+**2** - Scooping and loot related overviews
+
+**3** - FC Aid Overviews
+
+**4** - PvE Overviews
+
+**5** - Nullsec/Lowsec combat overviews
+
+**9** - Escape and travel
 
 The idea is to provide a holistic overview that addresses the needs of the line DPS, the support and the FC in the same
 overview package.  The intent is that this single overview will allow players to transition and grow into roles without
