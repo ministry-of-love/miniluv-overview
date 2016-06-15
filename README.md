@@ -26,7 +26,7 @@ from which the FC can request information that should be readily available.
 ## Installation
 
 To install the MiniLuvUO2, clone the Github repository, or download the files from the website in the zip file format.
-Extract the miniluv.yaml to the C:\Users\YOURUSERNAME\Eve\Overview folder.  If that folder does not exist, create that
+Extract the miniluv.yaml to the C:\Users\YOURUSERNAME\Documents\Eve\Overview folder.  If that folder does not exist, create that
 folder.  In game, undock or pull up your overview options.  From there go to the Misc tab, and left-click import
 overview.  Select MiniLuv from the list.
 
