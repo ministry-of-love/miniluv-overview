@@ -86,14 +86,6 @@ overviewColumns:
 - TYPE
 - VELOCITY
 presets:
-- - 0   pods
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 21
-        - 37
-    - - groups
-      - - 29
 - - 9   frogout nullsec
   - - - alwaysShownStates
       - []
@@ -170,6 +162,37 @@ presets:
         - 1527
         - 1534
         - 1538
+- - 2   scooping
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 21
+        - 37
+    - - groups
+      - - 12
+        - 15
+        - 186
+        - 380
+        - 513
+        - 902
+        - 941
+- - '3   fuckers: jams'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 15
+        - 16
+        - 21
+        - 36
+        - 37
+    - - groups
+      - - 25
+        - 26
+        - 27
+        - 833
+        - 893
+        - 906
 - - 9   travel only
   - - - alwaysShownStates
       - []
@@ -188,18 +211,18 @@ presets:
         - 1656
         - 1657
         - 1658
-- - 2   scooping
+- - 0   freighters
   - - - alwaysShownStates
       - []
     - - filteredStates
-      - - 21
+      - - 11
+        - 15
+        - 16
+        - 21
+        - 36
         - 37
     - - groups
-      - - 12
-        - 15
-        - 186
-        - 380
-        - 513
+      - - 513
         - 902
         - 941
 - - '3   fuckers: reps'
@@ -215,54 +238,6 @@ presets:
     - - groups
       - - 26
         - 832
-- - '3   fuckers: jams'
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 15
-        - 16
-        - 21
-        - 36
-        - 37
-    - - groups
-      - - 25
-        - 26
-        - 27
-        - 833
-        - 893
-        - 906
-- - 5   drones
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 14
-        - 15
-        - 16
-    - - groups
-      - - 100
-        - 101
-        - 544
-        - 549
-        - 639
-        - 640
-        - 641
-        - 1023
-        - 1159
-        - 1537
-        - 1652
-        - 1653
-- - 3   concord
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 14
-        - 15
-        - 16
-    - - groups
-      - - 301
 - - 1   scout freighters
   - - - alwaysShownStates
       - []
@@ -286,6 +261,44 @@ presets:
         - 31
         - 237
         - 830
+- - 1   scout cyno
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 15
+        - 16
+        - 17
+        - 20
+        - 21
+        - 36
+        - 37
+        - 48
+    - - groups
+      - - 237
+        - 310
+        - 513
+        - 883
+        - 902
+- - 0   pods
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 21
+        - 37
+    - - groups
+      - - 29
+- - 3   concord
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 14
+        - 15
+        - 16
+    - - groups
+      - - 301
 - - 0   miners
   - - - alwaysShownStates
       - []
@@ -304,6 +317,205 @@ presets:
         - 941
         - 1202
         - 1283
+- - 9   travel
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 15
+        - 16
+        - 21
+        - 36
+        - 37
+    - - groups
+      - - 10
+        - 12
+        - 15
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 90
+        - 237
+        - 310
+        - 324
+        - 358
+        - 361
+        - 361
+        - 365
+        - 366
+        - 380
+        - 381
+        - 383
+        - 419
+        - 420
+        - 463
+        - 479
+        - 485
+        - 492
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 548
+        - 659
+        - 699
+        - 707
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 863
+        - 864
+        - 883
+        - 893
+        - 894
+        - 897
+        - 898
+        - 900
+        - 902
+        - 906
+        - 927
+        - 941
+        - 963
+        - 1022
+        - 1201
+        - 1202
+        - 1246
+        - 1250
+        - 1283
+        - 1305
+        - 1320
+        - 1408
+        - 1527
+        - 1534
+        - 1538
+        - 1656
+        - 1657
+        - 1658
+- - 6   shoot blues
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 9
+        - 10
+        - 13
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 36
+        - 37
+        - 44
+        - 45
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    - - groups
+      - - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 237
+        - 324
+        - 358
+        - 380
+        - 381
+        - 419
+        - 420
+        - 463
+        - 485
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 659
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 883
+        - 893
+        - 894
+        - 898
+        - 900
+        - 902
+        - 906
+        - 941
+        - 963
+        - 1022
+        - 1201
+        - 1202
+        - 1283
+        - 1305
+        - 1527
+        - 1534
+        - 1538
+- - 5   drones
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 14
+        - 15
+        - 16
+    - - groups
+      - - 100
+        - 101
+        - 544
+        - 549
+        - 639
+        - 640
+        - 641
+        - 1023
+        - 1159
+        - 1537
+        - 1652
+        - 1653
+- - '3   fuckers: boosts'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 15
+        - 16
+        - 21
+        - 36
+        - 37
+    - - groups
+      - - 419
+        - 540
+        - 941
+        - 963
+        - 1534
+- - 1   scout indy
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 14
+        - 15
+        - 16
+    - - groups
+      - - 28
+        - 31
+        - 237
+        - 380
+        - 1202
 - - 4   null ratting
   - - - alwaysShownStates
       - []
@@ -540,151 +752,6 @@ presets:
         - 548
         - 863
         - 864
-- - '3   fuckers: boosts'
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 15
-        - 16
-        - 21
-        - 36
-        - 37
-    - - groups
-      - - 419
-        - 540
-        - 941
-        - 963
-        - 1534
-- - 1   scout indy
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 14
-        - 15
-        - 16
-    - - groups
-      - - 28
-        - 31
-        - 237
-        - 380
-        - 1202
-- - 0   freighters
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 15
-        - 16
-        - 21
-        - 36
-        - 37
-    - - groups
-      - - 513
-        - 902
-        - 941
-- - 1   scout cyno
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 12
-        - 15
-        - 16
-        - 17
-        - 20
-        - 21
-        - 36
-        - 37
-        - 48
-    - - groups
-      - - 237
-        - 310
-        - 513
-        - 883
-        - 902
-- - 9   travel
-  - - - alwaysShownStates
-      - []
-    - - filteredStates
-      - - 11
-        - 15
-        - 16
-        - 21
-        - 36
-        - 37
-    - - groups
-      - - 10
-        - 12
-        - 15
-        - 25
-        - 26
-        - 27
-        - 28
-        - 29
-        - 30
-        - 31
-        - 90
-        - 237
-        - 310
-        - 324
-        - 358
-        - 361
-        - 361
-        - 365
-        - 366
-        - 380
-        - 381
-        - 383
-        - 419
-        - 420
-        - 463
-        - 479
-        - 485
-        - 492
-        - 513
-        - 540
-        - 541
-        - 543
-        - 547
-        - 548
-        - 659
-        - 699
-        - 707
-        - 830
-        - 831
-        - 832
-        - 833
-        - 834
-        - 863
-        - 864
-        - 883
-        - 893
-        - 894
-        - 897
-        - 898
-        - 900
-        - 902
-        - 906
-        - 927
-        - 941
-        - 963
-        - 1022
-        - 1201
-        - 1202
-        - 1246
-        - 1250
-        - 1283
-        - 1305
-        - 1320
-        - 1408
-        - 1527
-        - 1534
-        - 1538
-        - 1656
-        - 1657
-        - 1658
 shipLabelOrder:
 - pilot name
 - ship type
@@ -778,35 +845,56 @@ tabSetup:
     - - name
       - <color=0xFFFFFFFF>   ✈   </color>
     - - overview
-      - 0  travel
+      - 9   travel only
 - - 1
   - - - bracket
-      - null
+      - 9   frogout highsec
     - - name
-      - <color=0xFFFF6F75>      <b>gank</b>      </color>
+      - <color=0xFFFF6F75><b>freighters</b></color>
     - - overview
-      - 9   frogout nullsec
+      - 0   freighters
 - - 2
   - - - bracket
-      - null
+      - 0   pods
     - - name
-      - <color=0xFFFFE900> friendly </color>
+      - <color=0xFFFFE900><b>pods</b></color>
     - - overview
-      - 0  warp out
+      - 0   pods
 - - 3
   - - - bracket
-      - null
+      - 0   miners
     - - name
-      - loot
+      - <color=0xFF4682b4><b>miners</b></color>
     - - overview
-      - 0  scooping
+      - 0   miners
 - - 4
   - - - bracket
-      - null
+      - 5   fleet combat
     - - name
-      - <color=0xFF7FFF1F> <b>escape!</b> </color>
+      - <color=0xFFFF6F75><b>combat</b></color>
     - - overview
-      - 0  warp out
+      - 5   fleet combat
+- - 5
+  - - - bracket
+      - 9   frogout highsec
+    - - name
+      - <color=0xFF7FFF1F><b>escape!</b></color>
+    - - overview
+      - 9   frogout highsec
+- - 6
+  - - - bracket
+      - 3   concord
+    - - name
+      - <b><color=0xFF4682b4>C</color><color=0xFFFF6F75>O</color><color=0xFF4682b4>N</color><color=0xFFFF6F75>C</color><color=0xFF4682b4>O</color><color=0xFFFF6F75>R</color><color=0xFF4682b4>D</color></b>
+    - - overview
+      - 3   concord
+- - 7
+  - - - bracket
+      - 6   shoot blues
+    - - name
+      - <color><color=0xFFFF6F75>Shoot</color> <color=0xFF4682b4>Blues</color></b>
+    - - overview
+      - 6   shoot blues
 userSettings:
 - - hideCorpTicker
   - true
