@@ -35,7 +35,7 @@ overview.  Select MiniLuv from the list.
 
 ![alt tag](http://i.imgur.com/YbCddZu.png)
 
-The overview provides 5 tabs, like any sensible overview.  The thought process behind these tabs is that the first tab
+The overview provides 8 tabs, like any sensible overview.  The thought process behind these tabs is that the first tab
 is travel tab, second tab is your Gank Kills tab, third tab is a friendly tab, for viewing friendlies on field,  The
 fourth tab is the loot scooping tab for support members, while the last tab is for frogging out.
 
